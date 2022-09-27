@@ -21,6 +21,7 @@ body{
 	display: flex;
 	align-items: center;
 	width: 100%;
+	background-color: gray;
 }
 .logo{
 	font-size: 2rem;
@@ -43,9 +44,24 @@ body{
 }
 
 
+.menu{
+	display: none;
+}
+
+
 .btn{
 	background: crimson;
 	color: #fff;
 	padding: 8px 12px;
 	border-radius: 4px;
+}
+
+@media (max-width: 576px){
+	.content ul{
+		display: none;
+	}
+
+	.menu{
+		display: block;
+	}
 }
