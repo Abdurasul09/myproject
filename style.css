@@ -64,4 +64,7 @@ body{
 	.menu{
 		display: block;
 	}
+	.btn{
+display: none;
+	}
 }
